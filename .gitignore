@@ -1,0 +1,59 @@
+# Add any directories, files, or patterns you don't want to be tracked by version control
+# built application files
+###################
+*.apk
+*.ap_
+
+# files for the dex VM
+###################
+*.dex
+
+# generated files #
+###################
+**/bin/
+**/gen/
+**/out/
+**/build/
+
+# Build files #
+###############
+build
+.gradle
+**/build/
+**/.gradle
+
+# Old-style IDEA project files
+#############################
+*.ipr
+*.iws
+
+# Local IDEA workspace
+#############################
+.idea/workspace.xml
+
+# Local configuration files #
+#############################
+local.properties
+**/local.properties
+
+# OSX files #
+#############
+**/.DS_Store
+
+# Android Studio #
+##################
+.idea
+*.iml
+**/.idea
+**/*.iml
+
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+/captures
+.externalNativeBuild
+
+nvpbase/build.gradle
